@@ -1,0 +1,56 @@
+{
+    "CA": [
+        {
+            "time": "1:00 PM ",
+            "title": "Grand Opening"
+        },
+        {
+            "time": "10:00 AM ",
+            "title": "First Event"
+        },
+        {
+            "time": "12:00 PM ",
+            "title": "Second Event"
+        },
+        {
+            "time": "3:00 PM ",
+            "title": "Full Release"
+        }
+    ],
+    "TX": [
+       {
+            "time": "1:00 PM ",
+            "title": "Grand Opening"
+        },
+        {
+            "time": "10:00 AM ",
+            "title": "First Event"
+        },
+        {
+            "time": "12:00 PM ",
+            "title": "Second Event"
+        },
+        {
+            "time": "3:00 PM ",
+            "title": "Full Release"
+        }
+    ],
+    "NY": [
+       {
+            "time": "1:00 PM ",
+            "title": "Grand Opening"
+        },
+        {
+            "time": "10:00 AM ",
+            "title": "First Event"
+        },
+        {
+            "time": "12:00 PM ",
+            "title": "Second Event"
+        },
+        {
+            "time": "3:00 PM ",
+            "title": "Full Release"
+        }
+    ]
+}

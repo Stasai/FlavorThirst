@@ -1,0 +1,216 @@
+@charset "utf-8";
+.bg-dark {
+    background-color: #548597 !important;
+}
+body {
+    background-color: #AAC4C5 !important;
+}
+#prices {
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#info {
+  background-color: #548597;
+  color: #fff;
+  width: 230px;
+  padding: 13px 16px;
+  text-align: center;
+  min-height: 86%;
+  position: absolute;
+  top: 8%;
+  right: -25%;}
+
+#planName {
+  text-transform: uppercase;
+  text-align: center; 
+  font-size: 120%;
+  margin-top: 10px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff; 
+  padding: 9px 0;}
+
+#monthRate{
+  text-decoration: line-through;
+  display: inline-block;
+  float: left;
+  padding-top: 9px;}
+
+#specialRate {  
+  font-size: 420%;
+  color: #ffb87a;
+  display: inline-block;
+  padding: 5px 0 15px 0;
+  margin: 0;}
+
+#offerEnds {
+  text-transform: uppercase;
+  color: #ffb87a;
+  font-size: 90%;}
+
+#blackboard {
+	background-color: #65BDBF;
+	border: 14px solid #9C5B29;
+	border-radius: 26px;
+	padding: 40px 20px;
+	margin: 0px auto;
+	height: 350px;
+	width: 400px;
+	text-align: center;}
+
+ul {
+	background-color: #584f4d;
+	border:none;
+	padding: 0;
+	margin: 0;}
+
+li {
+	background-color: #56C5BD;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: .05em;
+	height: 50px;
+	padding-left: 1em;
+}
+
+.flavor {
+	background-color: #548597;
+	color: #fff;
+    text-align: justify;
+}
+
+a[data-state='stop'] {background-image: url('../images/pause.png');}
+
+a[data-state='record'] {background-image: url('../images/record.png');}
+
+#buttons {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;}
+
+#buttons a {
+  width: 100px;
+  height: 100px; 
+  text-indent: 100%;
+  margin-top: 20px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;}
+
+form {
+  padding: 0 20px 20px 20px;}
+
+label {
+  color: #fff;
+  display: block;
+  margin: 10px 0 10px 0;
+  font-size: 24px;}
+
+input[type='text'], input[type='password'], textarea {
+  background-color: #749FA0;
+  color: #333;
+  font-size: 24px;
+  width: 96%;
+  padding: 4px 6px;
+  border: 2px solid #292424;
+  border-radius: 8px;}
+
+input[type='submit'], a.add, button, a.show {
+  background-color: #1C9B99;
+  color: #F0D1C6;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 10px;
+  margin-top: 10px;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;}
+
+input[type='submit'], a.add, button {
+  float: right;} 
+
+input[type='text']:focus, input[type='password']:focus, textarea:focus {
+  border: 1px solid #fff;
+  background-color: #E7E7E7;
+  outline: none;}
+
+input[type='submit']:hover, a.add:hover, a.show:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;}
+
+
+::-webkit-input-placeholder {color: #403c3b; font-family: arial, sans-serif;}
+:-moz-placeholder { /* Firefox 18- */ color: #403c3b; font-family: arial, sans-serif;}
+::-moz-placeholder {  /* Firefox 19+ */ color: #403c3b; font-family: arial, sans-serif;}
+:-ms-input-placeholder { color: #403c3b; font-family: arial, sans-serif;}
+
+
+#newItemButton {padding: 10px 20px 75px 20px; display: none;}
+#newItemForm {padding-top: 20px;}
+#itemDescription {width: 360px;}
+#newItemForm input[type='submit'] {margin-top: 0; text-align: left;}
+
+#event a {
+  font-family: oswald, arial, sans-serif;
+  font-size: 120%;
+  text-transform: capitalize;
+  text-align: left;
+  line-height: 4.5em;
+  display: block; 
+  height: 120px; width: 100%;}
+#event img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 20px;
+  margin-left: 30px;}
+#event a:hover, #sessions a:hover {color: #7CFCFF;}
+#sessions a {
+  font-family: oswald, arial, sans-serif;
+  font-size: 110%;}
+#sessions p {
+  margin-top: 1em;
+  margin-left: 20px}
+#sessions ul {
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  padding: 0 10px 0 10px;
+  margin: 0 0 30px 0;}
+#sessions li {
+  list-style-type: none; 
+  padding: 10px 0 10px 10px; 
+  background-color: #999; 
+  border-top: 1px solid #fff;
+  text-align: left;}
+#sessions li:first-child {
+  border-top: none;
+  padding-top: .5em;}
+#sessions li .time {
+  display: inline;
+  width: 60px;}
+#details div {
+  text-align: justify;
+  padding: 1.8em 0 0em 1;}
+#details p {
+  padding: 0;
+  margin: 0.8em 0 0 0;}
+
+h3 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #3fbb8a; 
+  font-family: oswald, arial, sans-serif;}
+
+#title {
+    margin-left: 20px;
+}
+
+
+
+

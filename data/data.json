@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "location": "San Francisco, CA",
+      "date": "August 2023",
+      "map": "../images/map-ca.jpg"
+    },
+    {
+      "location": "Austin, TX",
+      "date": "October 2023",
+      "map": "../images/map-tx.jpg"
+    },
+    {
+      "location": "New York, NY",
+      "date": "January 2024",
+      "map": "../images/map-ny.jpg"
+    }
+  ]
+}
