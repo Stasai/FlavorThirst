@@ -1,4 +1,4 @@
-# flavorthirst.github.io
+# FlavorThirst
 
 This is a school project website.
 
