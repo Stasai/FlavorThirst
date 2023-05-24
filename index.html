@@ -10,7 +10,7 @@
       <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
       <link href="css/project-styles.css" rel="stylesheet" type="text/css">
       <link href="css/greeting.css" rel="stylesheet" type="text/css">
-      <link href="css/modal-window.css" rel="stylesheet">
+      <link href="css/photo-viewer.css" rel="stylesheet">
    </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -79,6 +79,18 @@
                   <p class="text-center">Experience the many flavors we have in our monthly subscription boxes. If you're not sure yet, make sure to try out the first month free!&nbsp;&nbsp;</p>
                   <img src="images/coverphoto.jpg" alt="" class="img-fluid"> 
                </div>
+               <section class="page panel">
+                 <h2>Newest Flavors</h2>
+                 <div class="gallery">
+                   <div id="photo-viewer"></div>
+                   <div id="thumbnails"> <a href="images/photo-1.jpg" class="thumb active" title="Strawberry Blast"><img src="images/thumb-1.jpg" alt="Strawberry Blast" /></a> <a href="images/photo-2.jpg" class="thumb" title="Lemon Sour"><img src="images/thumb-2.jpg" alt="Lemon Sour" /></a> <a href="images/photo-3.jpg" class="thumb" title="Bluest Blueberry"><img src="images/thumb-3.jpg" alt="Bluest Blueberry" /></a></div>
+                 </div>
+                 <div class="description">
+                   <p class="standfirst">Take your tastebuds for a gentle stroll through a field of generous strawberries with Strawberry Blast, a great churn of Lemon Sour, and amazing fruit of Bluest Blueberry.</p>
+                   <p>With three sweet flavor options: <strong>Strawberry Blast</strong>, <strong>Lemon Sour</strong>, and <strong>Bluest Blueberry&nbsp;</strong> - all edible and all naturally flavored - they will have you dreaming of the wonderous flavors in no time.&nbsp;</p>
+                   <p><strong>$8.95</strong> / 11 fl oz per bottle</p>
+                   <a href="" id="buy">Buy now</a></div>
+               </section>
             </div>
          </div>
       </div>
@@ -266,5 +278,6 @@
       <script src="js/decisionloop.js"></script>
       <script src="js/dom.js"></script>
       <script src="js/jquery-3.6.4.min.js"></script>
+      <script src="js/photo-viewer.js"></script>
 </body>
 </html>
