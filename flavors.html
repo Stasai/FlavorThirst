@@ -8,6 +8,7 @@
   <!-- Bootstrap -->
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
     <link href="css/project-styles.css" rel="stylesheet" type="text/css">
+    <link href="css/photo-viewer.css" rel="stylesheet">
 <meta name="description" content="Flavor Thirst | Find out about our big selection of many flavors">
   </head>
   <body>
@@ -35,7 +36,19 @@
   <h2 class="text-center mt-4"><strong>Flavors</strong></h2>
   <div class="text-center">Check out our large assortment of flavors, ranging from mango to vanilla!&nbsp;</div>
   <img src="images/flavorwater.jpg" alt="four glasses of colored drinks" width="900" height="550" class="img-fluid center mt-3">
-  <hr>
+  <section class="page panel">
+    <h2>The Flower Series</h2>
+    <div class="gallery">
+      <div id="photo-viewer"></div>
+      <div id="thumbnails"> <a href="img/photo-1.jpg" class="thumb active" title="Elderberry Marshmallow"><img src="images/thumb-1.jpg" alt="Elderberry Marshmallow" /></a> <a href="img/photo-2.jpg" class="thumb" title="Rose Marshmallow"><img src="images/thumb-2.jpg" alt="Rose Marshmallow" /></a> <a href="img/photo-3.jpg" class="thumb" title="Crysanthemum Marshmallow"><img src="images/thumb-3.jpg" alt="Crysanthemum Marshmallow" /></a> </div>
+    </div>
+    <div class="description">
+      <p class="standfirst">Take your tastebuds for a gentle stroll through an English garden filled with Monsieur Pigeon's beautifully fragrant Flower Series marshmallows.</p>
+      <p>With three sweetly floral options: <strong>Elderberry</strong>, <strong>Rose Petal</strong>, and <strong>Chrysanthemum</strong> - all edible and all naturally flavored - they will have you dreaming of butterflies and birdsong in no time.</p>
+      <p><strong>$5.75</strong> / 3.5 oz packet</p>
+      <a href="" id="buy">Buy now</a> </div>
+  </section>
+  <hr>  
   <div class="container">
     <h2 class="text-center"><strong>Featured Flavors</strong></h2>
     <div class="row">
@@ -220,5 +233,6 @@
     <script src="js/dom.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/photo-viewer.js"></script>
   </body>
 </html>
