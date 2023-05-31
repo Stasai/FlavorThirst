@@ -236,7 +236,7 @@ button {
 	font-size: 100%;}
 
 button:hover, button.active {
-	background-color: #00cccc;
+	background-color: #595BD7;
 	color: #fff;
 	cursor: pointer;}
 
