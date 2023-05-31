@@ -5,8 +5,6 @@
 body {
     background-color: #AAC4C5 !important;
 }
-#prices {
-}
 .center {
     display: block;
     margin-left: auto;
@@ -213,8 +211,8 @@ h3 {
 
 #gallery {
 	text-align: center;
-	max-width: 1020px;
-	margin: 0 auto;}
+	max-width: 1050px;
+	margin: 3em auto;}
 
 #gallery img {
 	width: 300px;
@@ -224,19 +222,21 @@ h3 {
 	margin: 6px;
     -webkit-box-shadow: 0 0 3px 3px #ebebeb;
     box-shadow: 0 0 3px 3px #ebebeb;
-	float: left;}
+	float: none;}
 
 button {
 	background-color: #d7d7d7;
 	border: none;
-	padding: 3px 10px 4px 10px;
-	border-radius: 4px;
+	padding: 3px 11px 4px 11px;
+	border-radius: 7px;
 	color: #333;
+  position: relative;
+  right: 35%;
 	font-family: 'Karla', sans-serif;
 	font-size: 100%;}
 
 button:hover, button.active {
-	background-color: #595BD7;
+	background-color: #648ee8;
 	color: #fff;
 	cursor: pointer;}
 
