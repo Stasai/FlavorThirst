@@ -317,7 +317,7 @@ span.error {
   display: block;
   padding-left: 20px;
   color: #242424;
-  background-image: url("../img/icon-warning.png");
+  background-image: url("../images/icon-warning.png");
   background-position: left 3px;
   background-repeat: no-repeat;}
 
@@ -340,9 +340,9 @@ form {
   margin: 0 auto 0 auto;}
 
 .one-third, .two-thirds {
-  background-color: #8B89C8;
-  border: 12px solid #fff;
+  background-color: #b8bff1;
+  border: 12px solid #ffffff;
   padding: 10px;
   margin: 10px;
-  color: #fff;
+  color: #0a0000;
   overflow: hidden;}
