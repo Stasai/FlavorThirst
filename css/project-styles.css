@@ -346,3 +346,6 @@ form {
   margin: 10px;
   color: #0a0000;
   overflow: hidden;}
+
+  div.number-spin-btn-container {
+  margin-bottom: 1.6em !important; }

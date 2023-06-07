@@ -8,7 +8,7 @@
   <!-- css -->
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
     <link href="css/project-styles.css" rel="stylesheet" type="text/css">
-    <link href="css/jquery-ui-1.10.3.custom.min.css">
+    <link href="css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet">
 <meta name="description" content="Flavor Thirst | Description here">
   </head>
   <body>
@@ -87,25 +87,17 @@
             <label for="conf-password" class="required">Confirm password:</label>
             <input type="password" name="conf-password" id="conf-password" required>
           </div>
-        </fieldset>
-      </div>
-      <div class="one-third column">
-        <h2>Profile</h2>
           <div class="birthday">
             <label for="birthday" class="required">Birthday:</label>
             <input type="date" name="birthday" id="birthday" placeholder="yyyy-mm-dd" required>
             <div id="consent-container" class="hide">
-              <label for="parents-consent">You need a parent's permission to join.
-                Tick here if your child can join:</label>
+              <label for="parents-consent">You need a parent's permission to signup.
+                Tick here if your child can signup:</label>
               <input type="checkbox" name="parents-consent" id="parents-consent">
             </div>
+            <div class="register"><input type="submit" value="Register"></div>
           </div>
-          <div class="bio">
-            <label for="bio">Short Bio (max 140 characters):</label>
-            <textarea name="bio" id="bio" rows="5" cols="30"></textarea>
-            <span id="bio-count" class="hide">140</span>
-          </div>
-          <div class="register"><input type="submit" value="Register"></div>
+        </fieldset>
       </div>
     </form>
   </div></div>
@@ -169,7 +161,6 @@
 <script src="js/dom.js"></script>
 <script src="js/jquery-3.6.4.min.js"></script>
 <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-<script src="js/birthday.js"></script>
 <script src="js/validation.js"></script>
 <script src="js/placeholder-polyfill.js"></script>
 <script src="js/bio.js"></script>
