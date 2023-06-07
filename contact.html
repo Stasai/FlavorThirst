@@ -51,7 +51,7 @@
           </div>
         </div>
   </div>
-    <div id="page">
+  <div id="page">
      <h1 class="text-center">Support Recording</h1>
       <h2 class="text-center" id="noteName">Question/Inquiry</h2>
       <form action="" class="text-center">
@@ -62,7 +62,52 @@
         </div>
       </form>
     </div>
-</div>
+<div class="container">
+    <form method="post" action="/register" name="register">
+      <div class="one-third column">
+        <h2 class="welcome">Signup for Monthly Newsletter</h2>
+        <p class="intro">Sign up to our Flavor Thirst's Monthly Newsletter! We provide to you in each issue with brand new monthly flavors and limited time exclusive flavors. We also have monthly raffles for coupons for our subscription boxes, awesome events to check out, and many different articles on how we make the flavors and much more.</p>
+      </div>
+      <div class="one-third column">
+        <h2>Signup Form</h2>
+          <div class="name">
+            <label for="name" class="required">Name:</label>
+            <input type="text" placeholder="Enter your name" name="name" id="name" required title="Please enter your name">
+          </div>
+          <div class="email">
+            <label for="email" class="required">Email:</label>
+            <input type="email" placeholder="you@example.com" name="email" id="email" required>
+          </div>
+          <div class="password">
+            <label for="password" class="required">Password:</label>
+            <input type="password" name="password" id="password" required>
+          </div>
+          <div class="password">
+            <label for="conf-password" class="required">Confirm password:</label>
+            <input type="password" name="conf-password" id="conf-password" required>
+          </div>
+        </fieldset>
+      </div>
+      <div class="one-third column">
+        <h2>Profile</h2>
+          <div class="birthday">
+            <label for="birthday" class="required">Birthday:</label>
+            <input type="date" name="birthday" id="birthday" placeholder="yyyy-mm-dd" required>
+            <div id="consent-container" class="hide">
+              <label for="parents-consent">You need a parent's permission to join.
+                Tick here if your child can join:</label>
+              <input type="checkbox" name="parents-consent" id="parents-consent">
+            </div>
+          </div>
+          <div class="bio">
+            <label for="bio">Short Bio (max 140 characters):</label>
+            <textarea name="bio" id="bio" rows="5" cols="30"></textarea>
+            <span id="bio-count" class="hide">140</span>
+          </div>
+          <div class="register"><input type="submit" value="Register"></div>
+      </div>
+    </form>
+  </div></div>
   <hr>
     <div class="container">
       <div class="row">
@@ -121,5 +166,13 @@
     </footer>
     <script src="js/event.js"></script>
 <script src="js/dom.js"></script>
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="js/birthday.js"></script>
+<script src="js/validation.js"></script>
+<script src="js/placeholder-polyfill.js"></script>
+<script src="js/bio.js"></script>
+<script src="js/birthday.js"></script>
+<script src="js/utilities.js"></script>
   </body>
 </html>
